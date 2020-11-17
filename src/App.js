@@ -6,7 +6,7 @@ import {
   IonItem,
   IonLabel,
   IonTitle,
-  IonToolbar,
+  IonToolbar
 } from '@ionic/react';
 import React, { useState } from 'react';
 import BiorhythmCard from './components/BiorhythmCard';
@@ -16,28 +16,30 @@ function App() {
   const [birthDate, setBirthDate] = useLocalStorage('birthDate', '');
   const [targetDate, setTargetDate] = useState(new Date().toISOString());
   return (
-    <IonApp>
+    <IonApp style={{ maxWidth: '400px', margin: '0 auto' }}>
       <IonHeader>
         <IonToolbar>
           <IonTitle>Biorhythms</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent className="ion-padding">
-        {birthDate &&
+      <IonContent className='ion-padding'>
+        {birthDate && (
           <BiorhythmCard birthDate={birthDate} targetDate={targetDate} />
-        }
+        )}
         <IonItem>
-          <IonLabel position="fixed">Birth Date:</IonLabel>
-          <IonDatetime displayFormat="D MMM YYYY"
+          <IonLabel position='fixed'>Birth Date:</IonLabel>
+          <IonDatetime
+            displayFormat='D MMM YYYY'
             value={birthDate}
-            onIonChange={(event) => setBirthDate(event.detail.value)}
+            onIonChange={event => setBirthDate(event.detail.value)}
           />
         </IonItem>
         <IonItem>
-          <IonLabel position="fixed">Target Date:</IonLabel>
-          <IonDatetime displayFormat="D MMM YYYY"
+          <IonLabel position='fixed'>Target Date:</IonLabel>
+          <IonDatetime
+            displayFormat='D MMM YYYY'
             value={targetDate}
-            onIonChange={(event) => setTargetDate(event.detail.value)}
+            onIonChange={event => setTargetDate(event.detail.value)}
           />
         </IonItem>
       </IonContent>
