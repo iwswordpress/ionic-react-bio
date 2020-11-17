@@ -10,6 +10,8 @@ In this repo I am developing the starter app as a PWA and creating an Android Ap
 
 The online app is at https://ionic-bio.netlify.app/
 
+YouTube explainer video https://youtu.be/Nq9uNylhunA
+
 It saves birth date to local storage and is PWA enabled, working offline as well as being able to download a homescreen/desktop icon.
 
 Added service-worker.js and registered as per CRA specs.
