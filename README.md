@@ -2,7 +2,7 @@
 
 This example is part of the Ionic React course by Mirko Nasato.
 
-This is an excellent course to learn about Ionic React Capacitor to develop PWA, iOS and Android apps from one HTML/CSS/JS codebase.
+This is an excellent course to learn about Ionic 5 React Capacitor to develop PWA, iOS and Android apps from one HTML/CSS/JS codebase.
 
 https://www.udemy.com/course/ionic-react/ sales twice a month and should be around \$15USD
 
