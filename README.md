@@ -8,6 +8,10 @@ https://www.udemy.com/course/ionic-react/ sales twice a month and should be arou
 
 In this repo I am developing the starter app as a PWA and creating an Android App to deploy to Google Play.
 
+The online app is at https://ionic-bio.netlify.app/
+
+It saves birth date to local storage and is PWA enabled, working offline as well as being able to download a homescreen/desktop icon.
+
 Added service-worker.js and registered as per CRA specs.
 
 ## Links
