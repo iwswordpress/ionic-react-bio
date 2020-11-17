@@ -1,0 +1,8 @@
+{
+  "appId": "org.example.biorhythms",
+  "appName": "Biorhythms",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "cordova": {}
+}

@@ -1,0 +1,8 @@
+{
+  "appId": "uk.co.49plus.bio",
+  "appName": "Biorhythms",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "cordova": {}
+}
