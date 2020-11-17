@@ -19,7 +19,7 @@ function App() {
     <IonApp style={{ maxWidth: '400px', margin: '0 auto' }}>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Biorhythms</IonTitle>
+          <IonTitle>Biorhythms PWA 2</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent className='ion-padding'>
